@@ -1,5 +1,6 @@
 body 
 {font-family: 'Poppins', sans-serif;}
+
 header
 {
 text-align: right;
@@ -16,6 +17,12 @@ border-radius: 20px;
 color: white;
 font-weight: 700px
 
+}
+
+.first-part 
+{
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
 }
 .flex
 {
@@ -63,4 +70,16 @@ footer
 {
  background-image:url(images/Frame\ 58.jpg) ;
  text-align: center;
+}
+.navbar
+{
+height: 12%;
+display: flex;
+align-items: center;
+
+}
+.logo 
+{
+   width: 10%;
+   cursor: pointer;
 }
